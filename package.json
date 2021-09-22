@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"babar": "^0.2.0"
+	}
+}
