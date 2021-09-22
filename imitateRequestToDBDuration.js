@@ -26,7 +26,7 @@ function imitateRequestToDBDuration() {
 
     // время считывания информации
     const informationValue = imitateInformationReadingVolume(Math.random())
-    requestDurartion += informationValue / V
+    requestDurartion += ((informationValue / V) * 1000) // сек -> мс
 
     return requestDurartion; //МС
 }
